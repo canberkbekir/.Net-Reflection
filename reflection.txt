@@ -1,0 +1,3 @@
+CategoryID = dr[CategoryID] == DBNull.Value ? default : (int)dr[CategoryID],
+CategoryName = string.IsNullOrEmpty(dr[CategoryName].ToString()) ? string.Empty : dr[CategoryName].ToString(),
+Description = string.IsNullOrEmpty(dr[Description].ToString()) ? string.Empty : dr[Description].ToString(),
